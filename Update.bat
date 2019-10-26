@@ -6,6 +6,6 @@ git pull origin master
 ::rm Stocker-Candela\update.bat
 ::echo ALL | move Stocker-Candela\*.* . 
 ::echo Y | rmdir /s Stocker-Candela
-attrib +h Update.bat
+attrib -h Update.bat
 start stocker.exe
 ::PAUSE
